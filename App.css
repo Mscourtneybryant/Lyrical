@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10 vh;
+  background:#8ad67bd2;
+  color: white;
+
+}
+
+
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+  .app__navbar {
+    background-color: #000103;
+    color: white;
+    padding: 20px;
+  }
+  
+  .app__linkBox {
+    padding: 20px;
+  }
+  
+  .app__linkBox input {
+    padding: 20px;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 8px;
+  }
+
+h2 {
+  position: relative;
+  padding: 15px 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 18px;
+  font-family: 'Grechen Fuemen', cursive;
+  text-shadow:
+  0 0 5px rgb(145, 253, 95),
+  0 0 10px rgb(45, 75, 31),
+  0 0 21px rgb(59, 55, 55),
+  0 0 60px rgb(51, 141, 63),
+  0 0 82px rgb(29, 110, 18),
+  0 0 92px rgb(13, 80, 58),
+  0 0 102px rgb(20, 94, 20),
+  0 0 151px rgb(37, 126, 74);
+
+}
+
+h4{
+  font-family: 'Grechen Fuemen', cursive;
+}
+
+.music_vids{
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+
+}
+
+.logo{
+  transition-duration:900ms;
+  transition-property:all;
+  
+}
+
+.logo:hover{
+color:rgb(15, 124, 15);
+transform:rotatey(25deg) rotatex(25deg) ;
+
+}
+
+
+
+*:hover{
+  color: rgb(3, 223, 3);
+
+}
+
+body{
+  background-color: black;
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.slider{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image{
+  width: 100vh;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color:rgb(31, 71, 8);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color:rgb(31, 71, 8);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  
+}
+
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.p1{
+background-color: black;
+color:rgb(4, 116, 4);
+display:grid;
+justify-content: center;
+
+
+}
+
+button:hover{
+ background-color:rgb(8, 56, 8);
+}
+
+.btn-primary{
+  color:rgb(29, 110, 18);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.border{
+  border-style: none;
+  border-color: black;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
